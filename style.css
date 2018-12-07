@@ -1,0 +1,46 @@
+body {
+    background-color: red;
+}
+
+.wrapper {
+    position: relative;
+    border: 1px solid white;
+}
+
+.title {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    position: absolute;
+    bottom: -12%;
+    width: 100%;
+}
+
+.image {
+    margin-top: 50%;
+}
+
+.slick-dots {
+    bottom: 10%;
+}
+
+.slick-dots li button:before {
+    visibility: hidden;
+}
+
+.slick-dots li button {
+    border-radius: 50%;
+    content: "";
+    width: 10px;
+    height: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+    visibility: hidden;
+}
+
+.slick-dots li.slick-active button {
+    background-color: green !important;
+    color: green;
+}
